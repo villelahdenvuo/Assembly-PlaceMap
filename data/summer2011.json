@@ -1,4 +1,16 @@
 {
+  "config": {
+    "map": "data/summer2011.gif",
+    "place": {
+      "rect": 5,
+      "size": 6
+    },
+    "legend": {
+      "x": 0, "y": 0,
+      "width": 105,
+      "lineHeight": 14
+    }
+  },
   "groups":{
     "CoolBasic":{
       "color":"#2222FF",

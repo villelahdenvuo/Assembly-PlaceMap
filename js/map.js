@@ -1,15 +1,6 @@
 //** CONFIGURE **//
 var year = 2012
-var dataFile = 'summer' + year + '.json';
-var mapFile  = 'map.gif';
-// No need to modify unless map is changed.
-var rectSize = 5;
-var placeSize = 6;
-var legend = {
-  x: 0, y: 0,
-  width: 105,
-  lineHeight: 14,
-};
+var dataFile = 'data/summer' + year + '.json';
 
 //** READY **//
 $(function () {
@@ -31,7 +22,6 @@ $(function () {
     '<a href="https://github.com/tuhoojabotti/Assembly-PlaceMap">Githubissa</a>.');
   });
 
-
   $("input[type='text']").keypress(function (e) { // Also update search if user presses Enter.
     if (e.which != 13) { return };
 
@@ -51,8 +41,9 @@ $(function () {
 
 function Map() {
   this.paper = Raphael('map', 716, 673);
-  this.map = this.paper.image(mapFile, 0, 0, 716, 673);
+  this.map = undefined;
   this.selection = new Selection();
+  this.config = {};
   this.people = [];
   this.groups = [];
   this.tables = [];
@@ -60,15 +51,17 @@ function Map() {
 
 Map.prototype.loadData = function (file, cb) {
   var map = this;
-  $.getJSON('data/' + file, function (data) {
+  $.getJSON(file, function (data) {
     map.groups = data.groups;
     map.tables = data.tables;
+    map.config = data.config;
+    this.map = map.paper.image(map.config.map, 0, 0, 716, 673);
     cb();
-  });
+  }).fail(function () { console.error('Failed to load map data.'); });
 };
 
 Map.prototype.initLegend = function () {
-  var map = this, row = 0;
+  var map = this, row = 0, legend = map.config.legend;
 
   // Draw the background and title
   map.paper.rect(legend.x, legend.y, legend.width,
@@ -109,7 +102,7 @@ Map.prototype.initSelection = function () {
 
 //** Place object **//
 function Place(data, table, map) {
-  var place = this;
+  var place = this, size = map.config.place.size, rect = map.config.place.rect;
 
   // Copy data.
   place.map = map;
@@ -123,9 +116,9 @@ function Place(data, table, map) {
 
   // Create SVG element.
   place.svg = map.paper.rect(
-    table.x + (1 + ((data.id - 1) % table.cols)) * placeSize,
-    table.y + (Math.floor((data.id - 1) / table.cols)) * placeSize,
-    rectSize * (data.places ? data.places : 1) + (data.places ? data.places - 1 : 0), rectSize)
+    table.x + (1 + ((data.id - 1) % table.cols)) * size,
+    table.y + (Math.floor((data.id - 1) / table.cols)) * size,
+    rect * (data.places ? data.places : 1) + (data.places ? data.places - 1 : 0), rect)
   .attr({
     'fill': place.color,
     'stroke-opacity': 0,
