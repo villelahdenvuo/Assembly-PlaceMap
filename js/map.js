@@ -22,11 +22,13 @@ $(function () {
   });
 
   $('h1 #year').text(year);
-  
+
   $('#help').on('click', function(){
     info('Apuva!', 'Hiiri ryhmän nimen päälle niin näet lisätietoja.<br /><br />' +
     'Hiiri konepaikan päälle niin näet kuka siinä oleskelee. Klikkaamalla valitaan.<br /><br />' +
-    'Haussa välilyönti toimii or-operaattorina, eli voit hakea useiden henkilöiden sijainnin kerralla.');
+    'Haussa välilyönti toimii or-operaattorina, eli voit hakea useiden henkilöiden sijainnin ' +
+    'kerralla.<br /><br />Projektiin voit osallistua ' +
+    '<a href="https://github.com/tuhoojabotti/Assembly-PlaceMap">Githubissa</a>.');
   });
 
 
