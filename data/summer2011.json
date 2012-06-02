@@ -1,0 +1,181 @@
+{
+  "content": {
+    "title": "ASSEMBLY Summer 2011 -konepaikkakartta"
+  
+  },
+  "groups":{
+    "CoolBasic":{
+      "color":"#2222FF",
+      "description":"The Cool Zone is full of people who aren't afraid of some mystery MAVs or functions limits."
+    },
+    "Örf":{
+        "color": "#FF33FF",
+        "description":"The name describes the group's dynamics and sheer innovation"
+    },
+    "Friendly Fire":{
+        "color": "#33FF33",
+        "description":"X-Box-klaani (livegamers.fi)"
+    },
+    "Ryhmättömät":{
+      "color":"black",
+      "description":"Ne onnettomat ryhmättömät."
+    },
+    "Merkatut":{
+      "color":"Red",
+      "description":"Merkatut näytetään punaisella ja suuremmalla neliöllä."
+    }
+  },
+  "tables":[
+    {
+      "id":"B6",
+      "cols":17,
+      "x": 180,
+      "y": 150,
+      "place":[
+        {"id":23,"group":"CoolBasic","nick":"Kaneli2k"}
+      ]
+    },{
+      "id":"B7",
+      "cols":16,
+      "x":186,
+      "y":172,
+      "place":[
+        {"id":21,"group":"CoolBasic","nick":"DLockX","details":"Wingin kaveri"},
+        {"id":20,"group":"CoolBasic","nick":"naputtelija"},
+        {"id":19,"group":"CoolBasic","nick":"fknoobin veli","details":"(Wilhelmiina)"},
+        {"id":17,"group":"CoolBasic","nick":"fknoob","details":"tuhoojabotin kamuli","places":2},
+        {"id":22,"group":"CoolBasic","nick":"Wing","details":"Turusta, lähesty omalla vastuulla. ;-)"},
+        {"id":23,"group":"CoolBasic","nick":"Wingin pikkuveli","details":"Kiusaa omalla vastuulla."},
+        {"id":26,"group":"CoolBasic","nick":"Nassi_setä"},
+        {"id":24,"group":"CoolBasic","nick":"DJ-Filbe","details":"Se foorumitrolli, joka väittää olevansa oikeasti ihan jees tyyppi. :u"},
+        {"id":25,"group":"CoolBasic","nick":"Mo-Ai","details":"\"Sieg heil\""},
+        {"id":27,"group":"CoolBasic","nick":"VesQ","details":"Asm-noobi ja <a href=\"https://github.com/VesQ/NetMatch\">NetMatch</a>-kehittelijä"},
+        {"id":28,"group":"CoolBasic","nick":"Ilmuri","details":"<3"},
+        {"id":29,"group":"CoolBasic","nick":"Thudney","details":"öö... triplescreen eyefinity..."},
+        {"id":30,"group":"CoolBasic","nick":"cce"},
+        {"id":31,"group":"CoolBasic","nick":"Sami345","details":"CoolBasic -käyttäjä jo vuodesta 2006"},
+        {"id":32,"group":"CoolBasic","nick":"Goldenbar","details":"Sami345:n kaveri"}
+      ]
+    },{
+      "id":"B8",
+      "cols":18,
+      "x": 174,
+      "y": 199,
+      "place":[
+        {"id":11,"group":"CoolBasic","nick":"Henkru","details":"Kiitokset ryhmätilauksen järjestämisestä, jos ei näy konepaikalla niin varmaan paskalla (tavoittanet hänet irkistä)."},
+        {"id":12,"group":"CoolBasic","nick":"leonarven","details":"Mitäs pitäisi laittaa.. en mie tiiä ;__;"},
+        {"id":9 ,"group":"CoolBasic","nick":"tuhoojabotti","details":"Tein tämän sivun. Kaksi konepaikkaa, koska kolme 24\" näyttöä vie hieman tilaa. ;)","places":2},
+        {"id":8 ,"group":"CoolBasic","nick":"Ancalagon","details":"tuhoojabotin kamuli. Saa kiusata, varsinkin, kun näet pelaamassa WoWia/LoLia."},
+        {"id":7 ,"group":"CoolBasic","nick":"Viltzu"},
+        {"id":13,"group":"CoolBasic","nick":"sienipipo","details":"Naisvahvistuksemme<3"},
+        {"id":14,"group":"CoolBasic","nick":"KilledWhale"},
+        {"id":5 ,"group":"CoolBasic","nick":"MikkoK"},
+        {"id":6 ,"group":"CoolBasic","nick":"MikkoK"},
+        {"id":15,"group":"CoolBasic","nick":"Atomi"},
+        {"id":16,"group":"CoolBasic","nick":"Joxu"}
+      ]
+    },{
+      "id":"B9",
+      "cols":12,
+      "x": 174,
+      "y": 223,
+      "place":[
+        {"id":11,"group":"CoolBasic","nick":"bosanir","details":":O"}
+      ]
+    },{
+      "id":"C3",
+      "cols":13,
+      "x": 312,
+      "y": 82,
+      "place":[
+        {"id":8,"group":"Groupless","nick":"wolf_","details":"\"herp derp\" o.o"}
+      ]
+    },{
+      "id":"C7",
+      "cols":18,
+      "x": 292,
+      "y": 172,
+      "place":[
+        {"id":3,"group":"CoolBasic","nick":"Ozcar","details":"Täyttää perjantaina 9! Eikun siis 19!"}
+      ]
+    },{
+      "id":"C11",
+      "cols":18,
+      "x": 292,
+      "y": 271,
+      "place":[
+        {"id":15,"group":"CoolBasic","nick":"-Z-"}
+      ]
+    },{
+      "id":"C13",
+      "cols":21,
+      "x": 292,
+      "y": 319,
+      "place":[
+        {"id":22,"group":"Örf","nick":"linni","details":"Paikan tunnistaa mm. diskopallosta &lt;3"},
+        {"id":23,"group":"Örf","nick":"Shadikka","details":"Ryhmänsä lipputilaaja"},
+        {"id":24,"group":"Örf","nick":"Turtana","details":"?SYNTAX ERROR"},
+        {"id":25,"group":"Örf","nick":"khawl","details":"Synkkä ja salaperäinen kuin mustetahratesti yössä"}
+      ]
+    },{
+      "id":"C14",
+      "cols":21,
+      "x": 292,
+      "y": 343,
+      "place":[
+        {"id":1,"group":"Örf","nick":"Isperia","details":"Insert disk in drive A:"},
+        {"id":2,"group":"Örf","nick":"Tovola","details":"Pieni ja söpö"},
+        {"id":3,"group":"Örf","nick":"vehje","details":"Lapset älköön kuunnelko"},
+        {"id":4,"group":"Örf","nick":"Pakana","details":"WHARRGARBL"}
+      ]
+    },{
+      "id":"C17",
+      "cols":21,
+      "x": 292,
+      "y": 422,
+      "place":[
+        {"id":26,"group":"Friendly Fire","nick":"Rispe","details":""},
+        {"id":27,"group":"Friendly Fire","nick":"SUIKKIS","details":""},
+        {"id":28,"group":"Friendly Fire","nick":"Ollivix","details":""},
+        {"id":29,"group":"Friendly Fire","nick":"Tuks1","details":""},
+        {"id":30,"group":"Friendly Fire","nick":"Suiker0","details":""},
+        {"id":31,"group":"Friendly Fire","nick":"Galderr","details":""}
+      ]
+    },{
+      "id":"C19",
+      "cols":12,
+      "x": 304,
+      "y": 466,
+      "place":[
+        {"id":2,"group":"CoolBasic","nick":"kylpyankka","details":"Ankkavahvistuksemme<3 (Suttura lyötynee jostain kylpiksen läheisyydestä.)"}
+      ]
+    },{
+      "id":"D9",
+      "cols":18,
+      "x": 428,
+      "y": 223,
+      "place":[
+        {"id":16,"group":"Groupless","nick":"Dawn0fDeath","details":"\"asdasdasdasdsad lolol\""},
+        {"id":17,"group":"Groupless","nick":"Zumzibab"},
+        {"id":18,"group":"Groupless","nick":"Dzzer"},
+        {"id":15,"group":"Groupless","nick":"Jerezuh"}
+      ]
+    },{
+      "id":"D20",
+      "cols":10,
+      "x": 408,
+      "y": 483,
+      "place":[
+        {"id":3,"group":"CoolBasic","nick":"Atte"}
+      ]
+    },{
+      "id":"ORG",
+      "cols":1,
+      "x": 120,
+      "y": 138,
+      "place":[
+        {"id":1,"group":"CoolBasic","nick":"Tazhi","details":"Tassimies"}
+      ]
+    }
+  ]
+}

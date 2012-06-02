@@ -1,0 +1,10 @@
+body{font-family:sans-serif;margin:10px auto;width:1000px;min-width:1000px;}
+h1{margin:0 50px;}
+h2{margin:0px;}
+p{margin:0.5em 0.3em;}
+#info,#selection{margin-top:1em;}
+#selection {max-height:400px;overflow:auto;}
+#map{float:left;}
+#side_panel{float:left;width:280px;}
+input{font-size: 10px;width:160px;}
+nav{margin:10px 70px;}
