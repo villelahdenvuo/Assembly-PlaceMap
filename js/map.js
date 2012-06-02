@@ -1,5 +1,5 @@
 //** CONFIGURE **//
-var year = 2011
+var year = 2012
 var dataFile = 'summer' + year + '.json';
 var mapFile  = 'map.gif';
 // No need to modify unless map is changed.
@@ -53,14 +53,12 @@ function Map() {
   this.selection = new Selection();
   this.people = [];
   this.groups = [];
-  this.content = {};
   this.tables = [];
 }
 
 Map.prototype.loadData = function (file, cb) {
   var map = this;
   $.getJSON('data/' + file, function (data) {
-    map.content = data.content;
     map.groups = data.groups;
     map.tables = data.tables;
     cb();

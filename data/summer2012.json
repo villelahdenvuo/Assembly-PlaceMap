@@ -1,0 +1,80 @@
+{
+  "groups":{
+    "CoolBasic":{
+      "color":"#2222FF",
+      "description":"The Cool Zone is full of people who aren't afraid of some mystery MAVs or functions limits."
+    },
+    "Kunkku":{
+      "color":"#FFBF00",
+      "description":"Jotain kummia heppui"
+    },
+    "Merkatut":{
+      "color":"Red",
+      "description":"Merkatut näytetään punaisella ja suuremmalla neliöllä."
+    }
+  },
+  "tables":[
+    {
+      "id":"B15",
+      "cols":16,
+      "x":186,
+      "y":378,
+      "place":[
+        {"id":1,"group":"CoolBasic","nick":"Wingin pikkuveli","details":"Wingin pikkuveli"},
+        {"id":2,"group":"CoolBasic","nick":"MikkoK","places":2},
+        {"id":4,"group":"CoolBasic","nick":"Ogww"},
+        {"id":5,"group":"CoolBasic","nick":"Latexi95"},
+        {"id":6,"group":"CoolBasic","nick":"Sami345"},
+        {"id":7,"group":"CoolBasic","nick":"Sami345:n kaveri"}
+      ]
+    },{
+      "id":"B14",
+      "cols":18,
+      "x": 174,
+      "y": 343,
+      "place":[
+        {"id":25,"group":"CoolBasic","nick":"leonarven","details":"Ryhmätilauksen järjestäjä"},
+        {"id":24,"group":"CoolBasic","nick":"Viltzu","details":"Paikoista voi valittaa irkissä mulle :u"},
+        {"id":23,"group":"CoolBasic","nick":"Thudney","details":"öö... triplescreen eyefinity..."},
+        {"id":29,"group":"CoolBasic","nick":"DlockX"},
+        {"id":28,"group":"CoolBasic","nick":"naputtelija"},
+        {"id":27,"group":"CoolBasic","nick":"Wing","details":"Turusta, lähesty omalla vastuulla. ;-)"},
+        {"id":26,"group":"CoolBasic","nick":"Atomi"},
+        {"id":19,"group":"CoolBasic","nick":"Madpriestin kaveri"},
+        {"id":20,"group":"CoolBasic","nick":"Madpriestin kaveri"},
+        {"id":21,"group":"CoolBasic","nick":"Madpriestin kaveri"},
+        {"id":22,"group":"CoolBasic","nick":"Madpriest"}
+      ]
+    },{
+      "id":"F8",
+      "cols":1,
+      "x": 662,
+      "y": 254,
+      "place":[
+        {"id":1,"group":"Kunkku","nick":"Paahto"},
+        {"id":2,"group":"Kunkku","nick":"Orkkipoika"},
+        {"id":3,"group":"Kunkku","nick":"Nukka"},
+        {"id":4,"group":"Kunkku","nick":"Kolibri"},
+        {"id":5,"group":"Kunkku","nick":"Hymy"},
+        {"id":6,"group":"Kunkku","nick":"matte"},
+        {"id":7,"group":"Kunkku","nick":"lallis"},
+        {"id":8,"group":"Kunkku","nick":"kotte"},
+        {"id":9,"group":"Kunkku","nick":"Dr.house"},
+        {"id":10,"group":"Kunkku","nick":"texer"}
+      ]
+    },{
+      "id":"F9",
+      "cols":1,
+      "x": 650,
+      "y": 254,
+      "place":[
+        {"id":5,"group":"Kunkku","nick":"Rynde"},
+        {"id":6,"group":"Kunkku","nick":"Friado"},
+        {"id":7,"group":"Kunkku","nick":"Nailou"},
+        {"id":8,"group":"Kunkku","nick":"HQ_eraser"},
+        {"id":9,"group":"Kunkku","nick":"qpdb"},
+        {"id":10,"group":"Kunkku","nick":"Aqu"}
+      ]
+    }
+  ]
+}
