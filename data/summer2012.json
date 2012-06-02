@@ -7,7 +7,7 @@
     },
     "legend":{
       "x": 0, "y": 0,
-      "width": 105,
+      "width": 100,
       "lineHeight": 14
     }
   },
@@ -52,16 +52,14 @@
         {"id":28,"group":"CoolBasic","nick":"naputtelija"},
         {"id":27,"group":"CoolBasic","nick":"Wing","details":"Turusta, lähesty omalla vastuulla. ;-)"},
         {"id":26,"group":"CoolBasic","nick":"Atomi"},
-        {"id":19,"group":"CoolBasic","nick":"Madpriestin kaveri"},
-        {"id":20,"group":"CoolBasic","nick":"Madpriestin kaveri"},
-        {"id":21,"group":"CoolBasic","nick":"Madpriestin kaveri"},
+        {"id":19,"group":"CoolBasic","nick":"Madpriestin kamuleita", "places": 3},
         {"id":22,"group":"CoolBasic","nick":"Madpriest"}
       ]
     },{
       "id":"F8",
       "cols":1,
       "x": 662,
-      "y": 254,
+      "y": 344,
       "place":[
         {"id":1,"group":"Kunkku","nick":"Paahto"},
         {"id":2,"group":"Kunkku","nick":"Orkkipoika"},
@@ -78,7 +76,7 @@
       "id":"F9",
       "cols":1,
       "x": 650,
-      "y": 254,
+      "y": 344,
       "place":[
         {"id":5,"group":"Kunkku","nick":"Rynde"},
         {"id":6,"group":"Kunkku","nick":"Friado"},
