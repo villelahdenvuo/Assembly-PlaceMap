@@ -24,11 +24,12 @@ $(function () {
 
   $("input[type='text']").keypress(function (e) { // Also update search if user presses Enter.
     if (e.which !== 13) { return };
+    var i = $(this);
 
-    var s = $(this).val().trim()
+    var s = i.val().trim()
     if (!s) { return; }
 
-    $(this).val('').blur().focus();
+    i.val('').blur().focus();
     var regex = new RegExp(s.replace(/ /g, '|'), 'i');
 
     $.each(map.people, function(k, v) {
