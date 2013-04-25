@@ -23,7 +23,7 @@ $(function () {
   });
 
   $("input[type='text']").keypress(function (e) { // Also update search if user presses Enter.
-    if (e.which != 13) { return };
+    if (e.which !== 13) { return };
 
     var s = $(this).val().trim()
     if (!s) { return; }
@@ -66,7 +66,7 @@ Map.prototype.initLegend = function () {
   // Draw the background and title
   map.paper.rect(legend.x, legend.y, legend.width,
                  legend.lineHeight * 2 + Object.keys(map.groups).length * legend.lineHeight).attr({'fill': 'white'});
-  map.paper.text(legend.x + legend.width / 2, legend.lineHeight, 'RYHMÄT:').attr({'font-weight': 'bold'});
+  map.paper.text(legend.x + legend.width / 2, legend.y + legend.lineHeight, 'RYHMÄT:').attr({'font-weight': 'bold'});
 
   // Draw group names
   $.each(this.groups, function drawGroup(name, data) {
@@ -74,7 +74,7 @@ Map.prototype.initLegend = function () {
       'fill': data.color,
       'stroke-opacity': 0
     });
-    $(map.paper.text(legend.x + legend.width / 2, legend.lineHeight * 2 + legend.lineHeight * row++, name).node).css({'cursor': 'pointer'})
+    $(map.paper.text(legend.x + legend.width / 2, legend.y + legend.lineHeight * 2 + legend.lineHeight * row++, name).node).css({'cursor': 'pointer'})
     .mouseenter(function () {info(name, data.description);});
   });
 }

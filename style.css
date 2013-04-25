@@ -1,10 +1,14 @@
-body{font-family:sans-serif;margin:10px auto;width:1000px;min-width:1000px;}
-h1{margin:0 50px;}
-h2{margin:0px;}
-p{margin:0.5em 0.3em;}
-#info,#selection{margin-top:1em;}
-#selection {max-height:400px;overflow:auto;}
-#map{float:left;}
-#side_panel{float:left;width:280px;}
-input{font-size: 10px;width:160px;}
-nav{margin:10px 70px;}
+body{font-family:sans-serif;margin:0;background-color:#0E3124;color:#C7A291;min-width:1024px;}
+a,a:visited{color:#C78669;}
+header{text-align:center;margin:8px 0;}
+h1{margin:0 50px;font-size:1.7em;color:#8CC0AC;}
+h2{margin:0px;color:#3B1B0C;font-size:1.4em;}
+p{margin:0.5em 0.3em;color:#492514;}
+#info,#selection{margin-top:1em;min-height:82px;}
+#mapContainer{background-color:#8CC0AC;overflow:hidden;}
+#mapContainer2{margin:0 auto;width:1000px;background-color:#fff;box-shadow:0 0 16px 8px #fff;position:relative;}
+#map{width:716px;height:673px;display:inline-block;}
+#side_panel{width:270px;display:inline-block;position:absolute;top:10px;padding:10px 5px;}
+#text{overflow-y:auto;max-height:600px;}
+input{font-size:14px;width:270px;}
+footer{margin:10px 0;text-align:center;}
