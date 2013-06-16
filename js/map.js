@@ -1,5 +1,5 @@
 //** CONFIGURE **//
-var year = 2012
+var year = 2013
 var dataFile = 'data/summer' + year + '.json';
 
 //** READY **//
