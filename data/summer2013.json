@@ -1,0 +1,61 @@
+{
+  "config": {
+    "map": "data/summer2011.gif",
+    "place": {
+      "rect": 5,
+      "size": 6
+    },
+    "legend": {
+      "x": 0, "y": 0,
+      "width": 105,
+      "lineHeight": 14
+    }
+  },
+  "groups":{
+    "CoolBasic":{
+      "color":"#2222FF",
+      "description":"The Cool Zone is full of people who aren't afraid of some mystery MAVs or functions limits."
+    },
+    "Ryhmättömät":{
+      "color":"black",
+      "description":"Ne onnettomat ryhmättömät."
+    },
+    "Merkatut":{
+      "color":"Red",
+      "description":"Merkatut näytetään punaisella ja suuremmalla neliöllä."
+    }
+  },
+  "tables":[
+    {
+      "id":"B7",
+      "cols":16,
+      "x":186,
+      "y":172,
+      "place":[
+        {"id":19,"group":"CoolBasic","nick":"DLux","details":"Wingin kaveri"},
+        {"id":18,"group":"CoolBasic","nick":"Miro"},
+        {"id":17,"group":"CoolBasic","nick":"naputtelija","details":"(Wilhelmiina)"}
+      ]
+    },{
+      "id":"B8",
+      "cols":18,
+      "x": 174,
+      "y": 199,
+      "place":[
+        {"id":1,"group":"CoolBasic","nick":"Latexi95","details":"Kiitokset ryhmätilauksen järjestämisestä, jos ei näy konepaikalla niin varmaan paskalla (tavoittanet hänet irkistä)."},
+        {"id":2,"group":"CoolBasic","nick":"Thudney","details":"Mitäs pitäisi laittaa.. en mie tiiä ;__;"},
+        {"id":3,"group":"CoolBasic","nick":"Viltzu","details":"Tein tämän sivun. Kaksi konepaikkaa, koska kolme 24\" näyttöä vie hieman tilaa. ;)","places":2},
+        {"id":4,"group":"CoolBasic","nick":"Wing","details":"tuhoojabotin kamuli. Saa kiusata, varsinkin, kun näet pelaamassa WoWia/LoLia."},
+        {"id":5,"group":"CoolBasic","nick":"Atomim"}
+      ]
+    },{
+      "id":"ORG",
+      "cols":1,
+      "x": 120,
+      "y": 138,
+      "place":[
+        {"id":1,"group":"CoolBasic","nick":"Tazhi","details":"Tassimies"}
+      ]
+    }
+  ]
+}
