@@ -20,6 +20,10 @@
       "color":"black",
       "description":"Ne onnettomat ryhmättömät."
     },
+    "Paikattomat":{
+      "color":"#009900",
+      "description":"Ihmiset ilman konepaikkoja, jotka kuitenkin viettävät assyillä aikaansa."
+    },
     "Merkatut":{
       "color":"Red",
       "description":"Merkatut näytetään punaisella ja suuremmalla neliöllä."
@@ -33,8 +37,8 @@
       "y":172,
       "place":[
         {"id":19,"group":"CoolBasic","nick":"DLux","details":"Wingin kaveri"},
-        {"id":18,"group":"CoolBasic","nick":"Miro"},
-        {"id":17,"group":"CoolBasic","nick":"naputtelija","details":"(Wilhelmiina)"}
+        {"id":18,"group":"CoolBasic","nick":"naputtelija"},
+        {"id":17,"group":"CoolBasic","nick":"Miro","details":"Viltzulle sukua"}
       ]
     },{
       "id":"B8",
@@ -42,11 +46,11 @@
       "x": 174,
       "y": 199,
       "place":[
-        {"id":1,"group":"CoolBasic","nick":"Latexi95","details":"Kiitokset ryhmätilauksen järjestämisestä, jos ei näy konepaikalla niin varmaan paskalla (tavoittanet hänet irkistä)."},
-        {"id":2,"group":"CoolBasic","nick":"Thudney","details":"Mitäs pitäisi laittaa.. en mie tiiä ;__;"},
-        {"id":3,"group":"CoolBasic","nick":"Viltzu","details":"Tein tämän sivun. Kaksi konepaikkaa, koska kolme 24\" näyttöä vie hieman tilaa. ;)","places":2},
-        {"id":4,"group":"CoolBasic","nick":"Wing","details":"tuhoojabotin kamuli. Saa kiusata, varsinkin, kun näet pelaamassa WoWia/LoLia."},
-        {"id":5,"group":"CoolBasic","nick":"Atomim"}
+        {"id":1,"group":"CoolBasic","nick":"Latexi95"},
+        {"id":2,"group":"CoolBasic","nick":"Viltzu","details":"Vastuussa paikkojen valitsemisesta"},
+        {"id":3,"group":"CoolBasic","nick":"Wing","details":"Tunnistaa läppäristä, jossa Milkytracker auki."},
+        {"id":4,"group":"CoolBasic","nick":"Atomim","details":"Vastuussa ryhmätilauksesta ja lipuista"},
+        {"id":5,"group":"CoolBasic","nick":"Thudney","details":"Driftaa Gridissä"}
       ]
     },{
       "id":"ORG",
@@ -55,6 +59,15 @@
       "y": 138,
       "place":[
         {"id":1,"group":"CoolBasic","nick":"Tazhi","details":"Tassimies"}
+      ]
+    },{
+      "id":"KÄY",
+      "cols":5,
+      "x": 174,
+      "y": 186,
+      "place":[
+        {"id":8,"group":"Paikattomat","nick":"Mo-Ai","details":"Tyttö. Voidaan löytää Wingin paikalta, Wingin ollessa muualla."},
+        {"id":9,"group":"Paikattomat","nick":"msqrt"}
       ]
     }
   ]
