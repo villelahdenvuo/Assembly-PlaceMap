@@ -6,8 +6,8 @@
       "size": 6
     },
     "legend":{
-      "x": 0, "y": 7,
-      "width": 100,
+      "x": 0, "y": 0,
+      "width": 105,
       "lineHeight": 14
     }
   },
@@ -18,7 +18,11 @@
     },
     "Kunkku":{
       "color":"#FFBF00",
-      "description":"Jotain kummia heppui"
+      "description":"Jotain kummia heppui (atm vääril paikoil)"
+    },
+    "Groupless":{
+      "color":"Black",
+      "description":"Ryhmättömät ja muut"
     },
     "Merkatut":{
       "color":"Red",
@@ -27,63 +31,101 @@
   },
   "tables":[
     {
-      "id":"B15",
+      "id":"B7",
       "cols":16,
       "x":186,
-      "y":378,
+      "y":172,
       "place":[
-        {"id":1,"group":"CoolBasic","nick":"Wingin pikkuveli","details":"Wingin pikkuveli"},
-        {"id":2,"group":"CoolBasic","nick":"MikkoK","places":2},
-        {"id":4,"group":"CoolBasic","nick":"Ogww"},
-        {"id":5,"group":"CoolBasic","nick":"Latexi95"},
-        {"id":6,"group":"CoolBasic","nick":"Sami345"},
-        {"id":7,"group":"CoolBasic","nick":"Sami345:n kaveri"}
+        {"id":17,"group":"CoolBasic","nick":"Wingin pikkuveli","details":"Wingin pikkuveli"},
+        {"id":18,"group":"CoolBasic","nick":"MikkoK","places":2},
+        {"id":20,"group":"CoolBasic","nick":"Ogww"},
+        {"id":21,"group":"CoolBasic","nick":"Latexi95"},
+        {"id":22,"group":"CoolBasic","nick":"Sami345"},
+        {"id":23,"group":"CoolBasic","nick":"Sami345:n kaveri"},
+        {"id":24,"group":"CoolBasic","nick":"DJ-Filbe"}
       ]
     },{
-      "id":"B14",
+      "id":"B8",
       "cols":18,
       "x": 174,
-      "y": 343,
+      "y": 199,
       "place":[
-        {"id":25,"group":"CoolBasic","nick":"leonarven","details":"Ryhmätilauksen järjestäjä"},
-        {"id":24,"group":"CoolBasic","nick":"Viltzu","details":"Paikoista voi valittaa irkissä mulle :u"},
-        {"id":23,"group":"CoolBasic","nick":"Thudney","details":"öö... triplescreen eyefinity..."},
-        {"id":29,"group":"CoolBasic","nick":"DlockX"},
-        {"id":28,"group":"CoolBasic","nick":"naputtelija"},
-        {"id":27,"group":"CoolBasic","nick":"Wing","details":"Turusta, lähesty omalla vastuulla. ;-)"},
-        {"id":26,"group":"CoolBasic","nick":"Atomi"},
-        {"id":19,"group":"CoolBasic","nick":"Madpriestin kamuleita", "places": 3},
-        {"id":22,"group":"CoolBasic","nick":"Madpriest"}
+        {"id":7,"group":"CoolBasic","nick":"leonarven","details":"Ryhmätilauksen järjestäjä"},
+        {"id":6,"group":"CoolBasic","nick":"Viltzu","details":"Paikoista voi valittaa irkissä mulle :u"},
+        {"id":5,"group":"CoolBasic","nick":"Thudney","details":"öö... triplescreen eyefinity..."},
+        {"id":11,"group":"CoolBasic","nick":"DlockX"},
+        {"id":10,"group":"CoolBasic","nick":"naputtelija"},
+        {"id":9,"group":"CoolBasic","nick":"Wing","details":"Turusta, lähesty omalla vastuulla. ;-)"},
+        {"id":8,"group":"CoolBasic","nick":"Atomi"},
+        {"id":1,"group":"CoolBasic","nick":"Madpriestin kamuleita", "places": 3},
+        {"id":4,"group":"CoolBasic","nick":"Madpriest"}
       ]
     },{
-      "id":"F8",
-      "cols":1,
-      "x": 662,
-      "y": 344,
+      "id":"C19",
+      "cols":12,
+      "x": 304,
+      "y": 466,
       "place":[
-        {"id":1,"group":"Kunkku","nick":"Paahto"},
-        {"id":2,"group":"Kunkku","nick":"Orkkipoika"},
-        {"id":3,"group":"Kunkku","nick":"Nukka"},
-        {"id":4,"group":"Kunkku","nick":"Kolibri"},
-        {"id":5,"group":"Kunkku","nick":"Hymy"},
-        {"id":6,"group":"Kunkku","nick":"matte"},
-        {"id":7,"group":"Kunkku","nick":"lallis"},
-        {"id":8,"group":"Kunkku","nick":"kotte"},
-        {"id":9,"group":"Kunkku","nick":"Dr.house"},
-        {"id":10,"group":"Kunkku","nick":"texer"}
+        {"id":4,"group":"CoolBasic","nick":"Atte","details":"Heppu."}
       ]
     },{
-      "id":"F9",
-      "cols":1,
-      "x": 650,
-      "y": 344,
+      "id":"A5",
+      "cols":9,
+      "x": 137,
+      "y": 100,
       "place":[
-        {"id":5,"group":"Kunkku","nick":"Rynde"},
-        {"id":6,"group":"Kunkku","nick":"Friado"},
-        {"id":7,"group":"Kunkku","nick":"Nailou"},
-        {"id":8,"group":"Kunkku","nick":"HQ_eraser"},
-        {"id":9,"group":"Kunkku","nick":"qpdb"},
-        {"id":10,"group":"Kunkku","nick":"Aqu"}
+        {"id":4,"group":"Groupless","nick":"suttura"},
+        {"id":5,"group":"Groupless","nick":"kylpyankka","details":"Piilossa."}
+      ]
+    },{
+      "id":"E14",
+      "cols":12,
+      "x": 564,
+      "y": 327,
+      "place":[
+        {"id":5,"group":"Kunkku","nick":"Paahto"},
+        {"id":6,"group":"Kunkku","nick":"Orkkipoika"},
+        {"id":7,"group":"Kunkku","nick":"Nukka"},
+        {"id":8,"group":"Kunkku","nick":"Kolibri"},
+        {"id":9,"group":"Kunkku","nick":"Hymy"},
+        {"id":10,"group":"Kunkku","nick":"matte"},
+        {"id":11,"group":"Kunkku","nick":"lallis"},
+        {"id":12,"group":"Kunkku","nick":"kotte"},
+        {"id":17,"group":"Kunkku","nick":"Dr.house"},
+        {"id":18,"group":"Kunkku","nick":"texer"},
+        {"id":19,"group":"Kunkku","nick":"Rynde"},
+        {"id":20,"group":"Kunkku","nick":"Friado"},
+        {"id":21,"group":"Kunkku","nick":"Nailou"},
+        {"id":22,"group":"Kunkku","nick":"HQ_eraser"},
+        {"id":23,"group":"Kunkku","nick":"qpdb"},
+        {"id":24,"group":"Kunkku","nick":"Aqu"}
+      ]
+    },{
+      "id":"ORG",
+      "cols":1,
+      "x": 120,
+      "y": 138,
+      "place":[
+        {"id":1,"group":"CoolBasic","nick":"Tazhi","details":"Tassimies"},
+        {"id":49,"group":"CoolBasic","nick":"Tazhi","details":"Tassimies"}
+      ]
+    },{
+      "id":"C15",
+      "cols":21,
+      "x": 292,
+      "y": 378,
+      "place":[
+        {"id":31,"group":"Groupless","nick":"mirtye","details":"tyttö :U"},
+        {"id":32,"group":"Groupless","nick":"t0hvu","details":"tyttö :U"},
+        {"id":33,"group":"Groupless","nick":"Series^","details":"ei-tyttö :>"}
+      ]
+    },{
+      "id":"ORG",
+      "cols":1,
+      "x": 69,
+      "y": 277,
+      "place":[
+        {"id":1,"group":"Groupless","nick":"Abyss","details":"Abyss!"}
       ]
     }
   ]
