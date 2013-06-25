@@ -22,7 +22,7 @@
     },
     "Paikattomat":{
       "color":"#009900",
-      "description":"Ihmiset ilman konepaikkoja, jotka kuitenkin viettävät assyillä aikaansa."
+      "description":"Ihmiset ilman konepaikkoja, jotka viettävät assyillä aikaansa. Paikka määritetään sen mukaan, mistä henkilö voi löytyä."
     },
     "Merkatut":{
       "color":"Red",
@@ -54,11 +54,21 @@
       ]
     },{
       "id":"ORG",
-      "cols":1,
-      "x": 120,
+      "cols":2,
+      "x": 116,
       "y": 138,
       "place":[
-        {"id":1,"group":"CoolBasic","nick":"Tazhi","details":"Tassimies"}
+        {"id":1,"group":"Paikattomat","nick":"Tazhi","details":"Tassimies"},
+        {"id":2,"group":"Paikattomat","nick":"tuhoojabotti"}
+      ]
+    },{
+      "id":"ORG",
+      "cols":1,
+      "x": 69,
+      "y": 272,
+      "place":[
+        {"id":1,"group":"Groupless","nick":"Abyss","details":"Main organizer"},
+        {"id":2,"group":"Groupless","nick":"Pehu","details":"Main organizer"}
       ]
     },{
       "id":"KÄY",
@@ -67,7 +77,8 @@
       "y": 186,
       "place":[
         {"id":8,"group":"Paikattomat","nick":"Mo-Ai","details":"Tyttö. Voidaan löytää Wingin paikalta, Wingin ollessa muualla."},
-        {"id":9,"group":"Paikattomat","nick":"msqrt"}
+        {"id":9,"group":"Paikattomat","nick":"msqrt"},
+        {"id":4,"group":"Paikattomat","nick":"nekoliini","details":"msqrt:n sisko"}
       ]
     }
   ]
