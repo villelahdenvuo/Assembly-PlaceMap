@@ -41,7 +41,7 @@ $(function () {
 
 
 function Map() {
-  this.paper = Raphael('map', 716, 673);
+  this.paper = Raphael('map', 720, 673);
   this.map = undefined;
   this.selection = new Selection();
   this.config = {};
@@ -56,7 +56,7 @@ Map.prototype.loadData = function (file, cb) {
     map.groups = data.groups;
     map.tables = data.tables;
     map.config = data.config;
-    this.map = map.paper.image(map.config.map, 0, 0, 716, 673);
+    this.map = map.paper.image(map.config.map, 0, 0, 720, 673);
     cb();
   }).fail(function () { console.error('Failed to load map data.'); });
 };
